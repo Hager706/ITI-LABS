@@ -35,7 +35,7 @@ rmdir
 📸![Alt text](assets/pic12.png)
 
 ## **📌9-Display the first 4 lines of /etc/passwd** 
-📸![Alt text](assets/pic13.png)
+📸![Alt text](assets/pic14.png)
 
 ## **📌10-Display the first 7 lines of /etc/passwd** 
-📸![Alt text](assets/pic14.png)
+📸![Alt text](assets/pic13.png)
