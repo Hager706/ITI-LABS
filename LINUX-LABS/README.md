@@ -32,7 +32,7 @@ rmdir
 📸![Alt text](assets/pic11.png)
 
 ## **📌7-You are in /usr/bin, list four ways to go to your home directory** 
-📸![Alt text](assets/pic12.png)
+📸![Alt text](assets/pic15.png)
 
 ## **📌9-Display the first 4 lines of /etc/passwd** 
 📸![Alt text](assets/pic14.png)
