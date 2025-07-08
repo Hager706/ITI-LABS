@@ -12,7 +12,7 @@
 📸![Alt text](assets/pic5.png)
 📸![Alt text](assets/pic6.png)
 
-## **📌13- Display a list of all the commands that contain the keyword passwd in their man page.###
+## **📌13- Display a list of all the commands that contain the keyword passwd in their man page.
 📸![Alt text](assets/pic7.png)
 
 
