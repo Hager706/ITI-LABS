@@ -32,7 +32,7 @@
 📸![Alt text](assets/pic11.png)
 
 ## **📌5-Add islam user to the pgroup group as a supplementary group** 
-📸![Alt text](assets/pic12.png)
+![Alt text](assets/pic12.png)
 ![Alt text](assets/pic13.png)
 
 ## **📌6-Modify the password of islam's account to password** 
