@@ -19,11 +19,10 @@
 # lab2 #
 
 
-## **📌1-Create a user account with the following attribute     username: islam                                                    Fullname/comment: Islam Askar                                  Password: islam 
+## **📌1-Create a user account with the following attribute     username: islam                                                    Fullname/comment: Islam Askar                                  Password: islam **
 📸![Alt text](assets/pic8.png)
 
 ## **📌2-Create a user account with the following attribute         Username: baduser                                                 Full name/comment: Bad User                                       Password: baduser**
-📸![Alt text](assets/pic9.png)
 📸![Alt text](assets/pic9.png)
 
 ## **📌3-Create a supplementary (Secondary) group called pgroup with group ID of 30000** 
@@ -34,7 +33,7 @@
 
 ## **📌5-Add islam user to the pgroup group as a supplementary group** 
 📸![Alt text](assets/pic12.png)
-📸![Alt text](assets/pic13.png)
+![Alt text](assets/pic13.png)
 
 ## **📌6-Modify the password of islam's account to password** 
 📸![Alt text](assets/pic14.png)
