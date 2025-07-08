@@ -18,10 +18,10 @@ rmdir
 ### a-Remove dir11 in one-step. What did you notice? And how did you overcome that? ###
 📸![Alt text](assets/pic6.png)
 
-### b-Then remove dir12 using rmdir –p command. State what happened to the hierarchy (Note: you are in your home directory).###
+### b-Then remove dir12 using rmdir –p command. State what happened to the hierarchy (Note: you are in your home directory).
 📸![Alt text](assets/pic7.png)
 
-### c-The output of the command pwd was /home/user. Write the absolute and relative path for the file mycv###
+### c-The output of the command pwd was /home/user. Write the absolute and relative path for the file mycv
 📸![Alt text](assets/pic8.png)
 📸![Alt text](assets/pic9.png)
 
