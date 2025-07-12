@@ -27,7 +27,7 @@ zcat
 ![Alt text](assets/pic8.png)
 
 ## **📌7-Write a command to search for all files on the system that, its name is “.profile”.** 
-![Alt text](assets/pic8.png)
+![Alt text](assets/pic9.png)
 
 ## **📌8-Identify the file types of the following: /etc/passwd, /dev/pts/0, /etc, /dev/sda** 
 ![Alt text](assets/pic10.png)
