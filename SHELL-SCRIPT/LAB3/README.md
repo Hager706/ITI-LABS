@@ -25,40 +25,56 @@ e. Nothing.
 
 
 ## **📌4-Write a script called mybackup using for utility to create a backup of only files in your home directory**
-![Alt text](assets/pic11.png)
-![Alt text](assets/pic12.png)
+![Alt text](assets/pic7.png)
+![Alt text](assets/pic8p.png)
 
-## **📌5-Create a script called myls where:**
-### a. It lists the current directory, if it is called without arguments.
-### b. Otherwise, it lists the given directory.
-![Alt text](assets/pic14.png)
+## **📌5-Write a script called mymail using for utility to send a mail to all users in the system. Note: write the mail body in a file called mtemplate.**
+![Alt text](assets/pic12.png)
+![Alt text](assets/pic9.png)
+![Alt text](assets/pic10.png)
+![Alt text](assets/pic11.png)
+
+## **📌6-Write a script called chkmail to check for new mails every 10 seconds. Note: mails are saved in /var/mail/username.**
+
 ![Alt text](assets/pic13.png)
 
-## **📌6-Enhance the above script to support the following options individually:**
-### a. -I: list in long format
-### b. -a: list all entries including the hiding files.
-### c. -d: if an argument is a directory, list only its name
-### d. -i: print inode number
-### e. -R: recursively list subdirectories
+## **📌7-What is the output of the following script**
+typeset –i n1
+typeset –i n2
+n1=1
+n2=1
+while test $n1 –eq $n2
+do
+n2=$n2+1
+print $n1
+if [ $n1 –gt $n2 ]
+then
+break
+else
+continue
+fi
+n1=$n1+1
+print $n2
+done
+
+1 >>>> n1=1
+## **📌8-Create the following menu:**
+a. Press 1 to ls
+b. Press 2 to ls –a
+c. Press 3 to exit
+Using select utility then while utility.
+![Alt text](assets/pic14.png)
 
 ![Alt text](assets/pic15.png)
+
+
+
+## **📌9-Write a script called myarr that ask a user how many elements he wants to enter in an array, fill the array and then print it.**
 ![Alt text](assets/pic16.png)
-
-## **📌7-Create a script called mytest where:**
-### a. It check the type of the given argument (file/directory)
-### b. It check the permissions of the given argument (read/write/execute)
-
 ![Alt text](assets/pic17.png)
-## **📌8-Create a script called myinfo where:
-### a. It asks the user about his/ her logname.
-### b. It print full into about files and directories in his/her home directory
-### c. Copy his/her files and directories as much as you can in / tmp directory.
-### d. Gets his current processes status.** 
 
+## **📌10-Write a script called myavg that calculate average of all numbers entered by a user. Note: use arrays**
 ![Alt text](assets/pic18.png)
-![Alt text](assets/pic19.png)
-![Alt text](assets/pic20.png)
 
-to show the current process should run script with source myinfo
-
+## **📌11-Write a function called mysq that calculate square if its argument.**
 
