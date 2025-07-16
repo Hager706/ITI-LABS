@@ -1,27 +1,30 @@
-# lab2 #
-## **📌1-Create a script that asks for user name then send a greeting to him.**
+# lab3 #
+## **📌1-Write a script called mycase, using the case utility to checks the type of character
+entered by a user:
+a. Upper Case.
+b. Lower Case.
+c. Number.
+d. Nothing.
+
 📸![Alt text](assets/pic1.png)
 📸![Alt text](assets/pic2.png)
 
-## **📌2-Create a script called s1 that calls another script s2 where:**
-### a. In s1 there is a variable called x, it's value 5
-## b. Try to print the value of x in s2 by two different ways.
+## **📌2-Enhanced the previous script, by checking the type of string entered by a user:**
+a. Upper Cases.
+b. Lower Cases.
+c. Numbers.
+d. Mix.
+e. Nothing.
+
 📸![Alt text](assets/pic3.png)
 📸![Alt text](assets/pic4.png)
-📸![Alt text](assets/pic5.png)
 
-## **📌3-Create a script called mycd where:**
-### a.It copies a file to another
-### b.It copies multiple files to a directory.
+## **📌3-Write a script called mychmod using for utility to give execute permission to all files and directories in your home directory.**
 ![Alt text](assets/pic6.png)
-![Alt text](assets/pic7.png)
-![Alt text](assets/pic8.png)
-![Alt text](assets/pic9.png)
-![Alt text](assets/pic10.png)
+![Alt text](assets/pic5.png)
 
-## **📌4-Create a script called mycd where:**
-### a. It changed directory to the user home directory, if it is called without argur
-### b. Otherwise, it change directory to the given directory.
+
+## **📌4-Write a script called mybackup using for utility to create a backup of only files in your home directory**
 ![Alt text](assets/pic11.png)
 ![Alt text](assets/pic12.png)
 
