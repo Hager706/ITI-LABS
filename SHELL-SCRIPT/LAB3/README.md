@@ -77,3 +77,5 @@ Using select utility then while utility.
 
 ## **📌11-Write a function called mysq that calculate square if its argument.**
 
+![Alt text](assets/pic19.png)
+![Alt text](assets/pic20.png)
