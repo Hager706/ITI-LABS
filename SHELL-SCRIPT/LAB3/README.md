@@ -20,7 +20,6 @@ e. Nothing.
 📸![Alt text](assets/pic4.png)
 
 ## **📌3-Write a script called mychmod using for utility to give execute permission to all files and directories in your home directory.**
-![Alt text](assets/pic6.png)
 ![Alt text](assets/pic5.png)
 
 
