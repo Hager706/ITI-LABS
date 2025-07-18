@@ -25,7 +25,7 @@ e. Nothing.
 
 ## **📌4-Write a script called mybackup using for utility to create a backup of only files in your home directory**
 ![Alt text](assets/pic7.png)
-![Alt text](assets/pic8p.png)
+![Alt text](assets/pic8.png)
 
 ## **📌5-Write a script called mymail using for utility to send a mail to all users in the system. Note: write the mail body in a file called mtemplate.**
 ![Alt text](assets/pic12.png)
