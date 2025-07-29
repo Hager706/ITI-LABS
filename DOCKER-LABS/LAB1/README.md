@@ -71,11 +71,11 @@ the file will removed also
 ## Run a new container with the following:
 ### Attach the volume that was attached to the previous container
 
-![Alt text](assets/pic15.png)
+![Alt text](assets/pic16.png)
 
 # Bonus
 
-![Alt text](assets/pic16.png)
 ![Alt text](assets/pic17.png)
 ![Alt text](assets/pic18.png)
+![Alt text](assets/pic19.png)
 
