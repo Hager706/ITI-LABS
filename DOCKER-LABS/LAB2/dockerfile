@@ -1,0 +1,16 @@
+# FROM nginx:latest
+# COPY index.html /usr/share/nginx/html/index.html
+# COPY nginx.conf /etc/nginx/nginx.conf
+# Use an official Node.js runtime as a parent image
+
+FROM node
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+CMD [ "node", "calculator.js" ]
