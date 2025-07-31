@@ -41,3 +41,7 @@ CMD ["5"]
 ![Alt text](assets/pic10.png)
 
 # multi stage
+
+![Alt text](assets/pic11.png)
+
+![Alt text](assets/pic12.png)
