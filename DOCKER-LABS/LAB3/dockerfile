@@ -1,0 +1,9 @@
+# FROM nginx:latest
+# COPY index.html /usr/share/nginx/html/index.html
+# COPY nginx.conf /etc/nginx/nginx.conf
+# Use an official Node.js runtime as a parent image
+
+FROM ubuntu:latest
+
+ENTRYPOINT ["sleep"]
+CMD ["5"]
