@@ -30,3 +30,14 @@ CMD ["5"]
 
 ![Alt text](assets/pic6.png)
 
+# make commit 
+
+![Alt text](assets/pic7.png)
+
+![Alt text](assets/pic8.png)
+
+![Alt text](assets/pic9.png)
+
+![Alt text](assets/pic10.png)
+
+# multi stage
