@@ -1,4 +1,4 @@
-# lab2 #
+# lab2 
 ## **📌1-Create a script that asks for user name then send a greeting to him.**
 📸![Alt text](assets/pic1.png)
 📸![Alt text](assets/pic2.png)

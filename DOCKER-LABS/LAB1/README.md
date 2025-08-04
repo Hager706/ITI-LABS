@@ -41,7 +41,7 @@ the file will removed also
 ![Alt text](assets/pic9.png)
 
 
-# **📌Problem 3:**
+# **📌Problem 1:**
 
 ## Deploy a MySQL database called app-database. Use the mysql latest image, and use the -e flag to set MYSQL_ROOT_PASSWORD to P4sSw0rd0!. The container should run in the background.
 
