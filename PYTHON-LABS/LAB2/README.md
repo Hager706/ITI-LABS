@@ -66,7 +66,7 @@ contains that alphabet, it
 
 ![Alt text](assets/pic.png)
 
-![Alt text](assets/pic14.png)
+![Alt text](assets/pic13.png)
 
 ![Alt text](assets/pic14.png)
 
