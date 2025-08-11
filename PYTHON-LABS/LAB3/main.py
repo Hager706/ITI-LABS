@@ -7,7 +7,7 @@ load_projects()
 
 
 def show_main_menu():
-    current_user = get_current_user()  # Add this line
+    current_user = get_current_user()  
     if current_user:
         print(f"\nLogged in as: {current_user['first_name']}")
     choice = input("""Crowdfunding App 

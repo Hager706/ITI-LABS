@@ -6,9 +6,8 @@ projects = []
 PROJECTS_FILE = os.path.join("data", "projects.txt")
 
 
-# ===================== File Handling =====================
 def load_projects():
-    """Load projects from file into the projects list."""
+   
     global projects
     if os.path.exists(PROJECTS_FILE):
         with open(PROJECTS_FILE, "r") as f:
@@ -25,15 +24,12 @@ def load_projects():
 
 
 def save_projects():
-    """Save all projects to file."""
     with open(PROJECTS_FILE, "w") as f:
         for p in projects:
             f.write(f"{p['title']}|{p['details']}|{p['target']}|{p['start_date']}|{p['end_date']}|{p['owner_email']}\n")
 
 
-# ===================== Create Project =====================
 def create_project():
-    """Create a new project for the logged-in user."""
     current_user = get_current_user()
     if current_user is None:
         print("Please login first!")
@@ -64,9 +60,7 @@ def create_project():
     print("Project created successfully!")
 
 
-# ===================== View All Projects =====================
 def view_all_projects():
-    """Show all available projects."""
     if not projects:
         print("No projects available.")
         return
@@ -80,9 +74,7 @@ def view_all_projects():
         print("---")
 
 
-# ===================== View My Projects =====================
 def view_my_projects():
-    """Show only the logged-in user's projects."""
     current_user = get_current_user()
     if current_user is None:
         print("Please login first!")
@@ -102,9 +94,7 @@ def view_my_projects():
         print("---")
 
 
-# ===================== Edit My Project =====================
 def edit_project():
-    """Edit one of the logged-in user's projects."""
     current_user = get_current_user()
     if current_user is None:
         print("Please login first!")
@@ -130,7 +120,6 @@ def edit_project():
 
     project_to_edit = my_projects[choice - 1]
 
-    # Update fields
     project_to_edit["title"] = input("Enter new title: ")
     project_to_edit["details"] = input("Enter new details: ")
     target = input("Enter new target (EGP): ")
@@ -145,9 +134,7 @@ def edit_project():
     print("Project updated successfully!")
 
 
-# ===================== Delete My Project =====================
 def delete_project():
-    """Delete one of the logged-in user's projects."""
     current_user = get_current_user()
     if current_user is None:
         print("Please login first!")

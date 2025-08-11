@@ -12,14 +12,14 @@ def get_current_user():
 
 def load_users():
     global users
-    os.makedirs("data", exist_ok=True)  # Create data folder if it doesn't exist
+    os.makedirs("data", exist_ok=True)  
     if os.path.exists(USERS_FILE):
         with open(USERS_FILE, "r") as f:
             for line in f:
                 line = line.strip()
-                if line:  # Skip empty lines
+                if line:  
                     parts = line.split("|")
-                    if len(parts) == 5:  # Make sure we have all parts
+                    if len(parts) == 5:  
                         first_name, last_name, email, password, phone = parts
                         users.append({
                             "first_name": first_name,
@@ -31,7 +31,7 @@ def load_users():
 
 
 def save_users():
-    os.makedirs("data", exist_ok=True)  # Create data folder if it doesn't exist
+    os.makedirs("data", exist_ok=True)  
     with open(USERS_FILE, "w") as f:
         for user in users:
             f.write(f"{user['first_name']}|{user['last_name']}|{user['email']}|{user['password']}|{user['phone']}\n")
@@ -43,7 +43,6 @@ def register_user():
     last_name = input("Enter last name: ")
     email = input("Enter email: ")
 
-    # Check if email already exists
     for user in users:
         if user["email"] == email:
             print("Email already exists! Please use a different email.")
@@ -88,7 +87,7 @@ def login_user():
         if user["email"] == email and user["password"] == password:
             current_user = user
             print(f"Login successful! Welcome {user['first_name']}!")
-            return user  # Return the user object
+            return user  
     
     print("Invalid email or password!")
     return None
