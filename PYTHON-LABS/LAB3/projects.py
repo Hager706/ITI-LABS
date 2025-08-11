@@ -1,5 +1,5 @@
 import os
-from auth import current_user, users
+from auth import get_current_user, users
 from validation import is_valid_number
 
 projects = []
@@ -34,6 +34,7 @@ def save_projects():
 # ===================== Create Project =====================
 def create_project():
     """Create a new project for the logged-in user."""
+    current_user = get_current_user()
     if current_user is None:
         print("Please login first!")
         return
@@ -82,6 +83,7 @@ def view_all_projects():
 # ===================== View My Projects =====================
 def view_my_projects():
     """Show only the logged-in user's projects."""
+    current_user = get_current_user()
     if current_user is None:
         print("Please login first!")
         return
@@ -103,6 +105,7 @@ def view_my_projects():
 # ===================== Edit My Project =====================
 def edit_project():
     """Edit one of the logged-in user's projects."""
+    current_user = get_current_user()
     if current_user is None:
         print("Please login first!")
         return
@@ -145,6 +148,7 @@ def edit_project():
 # ===================== Delete My Project =====================
 def delete_project():
     """Delete one of the logged-in user's projects."""
+    current_user = get_current_user()
     if current_user is None:
         print("Please login first!")
         return

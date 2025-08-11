@@ -1,12 +1,13 @@
-from auth import register_user, login_user, current_user, load_users
+import auth
+from auth import register_user, login_user, get_current_user, load_users
 from projects import create_project, view_all_projects, view_my_projects, edit_project, delete_project, load_projects
-
 
 load_users()
 load_projects()
 
 
 def show_main_menu():
+    current_user = get_current_user()  # Add this line
     if current_user:
         print(f"\nLogged in as: {current_user['first_name']}")
     choice = input("""Crowdfunding App 
@@ -28,10 +29,11 @@ while True:
     if menu == "1":
         register_user()
     elif menu == "2":
+        current_user = get_current_user()
         if current_user:
-            print("You are already logged in!")
+          print("You are already logged in!")
         else:
-            login_user()
+          login_user()
     elif menu == "3":
         view_all_projects()
     elif menu == "4":
