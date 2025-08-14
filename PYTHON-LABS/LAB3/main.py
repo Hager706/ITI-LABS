@@ -1,4 +1,3 @@
-import auth
 from auth import register_user, login_user, get_current_user, load_users
 from projects import create_project, view_all_projects, view_my_projects, edit_project, delete_project, load_projects
 
