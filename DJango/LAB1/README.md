@@ -16,7 +16,7 @@
 
 ## create 3 applications products, contactus, aboutus in each application create one page                                                            -> add url products/index contactus/contact aboutus/about
 
-![Alt text](assets/pic.png)
+![Alt text](assets/p.png)
 
 ![Alt text](assets/pic4.png)
 
